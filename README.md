@@ -1,3 +1,4 @@
+# *TECNOLÓGICO DE SOFTWARE*
 # PROYECTO 2: DFS iterativo usando una pila propia
 ## Astrit Airan Cetzal Cetzal - Venus Getsemaní Semino Alemán - Mateo Emanuel Martin Tec 
 ## Objetivo
