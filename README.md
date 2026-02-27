@@ -1,5 +1,5 @@
 # PROYECTO 2: DFS iterativo usando una pila propia
-
+## Astrit Airan Cetzal Cetzal - Venus Getsemaní Semino Alemán - Mateo Emanuel Martin Tec 
 ## Objetivo
 Implementar una Búsqueda en Profundidad (DFS) sin utilizar recursión, haciendo uso de una estructura de datos tipo Pila (Stack) con implementación propia.
 --
