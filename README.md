@@ -4,7 +4,6 @@
 Implementar una Búsqueda en Profundidad (DFS) sin utilizar recursión, haciendo uso de una estructura de datos tipo Pila (Stack) con implementación propia.
 --
 ## Requisitos Implementados
-El código cumple con los 5 requisitos solicitados para la evaluación:
 1. **Clase Stack:** Implementación propia de una pila con las operaciones 
 Una pila funciona bajo el principio LIFO (LAST IN-FIRST OUT) y por ende tenemos los siguientes métodos:
 * `push(x)`:agrega un elemento a la cima
