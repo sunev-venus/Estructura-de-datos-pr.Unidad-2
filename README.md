@@ -22,7 +22,7 @@ Definimos la clase Graph y utilizamos un diccionario para implementar una lista 
 
 ## Pruebas de los algoritmos 
 1. **Prueba DFS sin ciclo:** se crea un frafo lineal simple y se imprimer el de visita.
-2. **Prueba de ciclo:** se crea un grafo cerrado en forma de traingulo para que el algoritmo detecte el ciclo y devuerlva `True`.
+2. **Prueba de ciclo:** se crea un grafo cerrado en forma de traingulo para que el algoritmo detecte el ciclo y devuelva `True`.
 3. **Prueba de componentes conexas:** se crea un grafo ártido en tres secciones independientes para comprobar que el algoritmo encuentra 3 listas diferentes.
 
 ## link del repositorio
