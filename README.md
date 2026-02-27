@@ -14,9 +14,11 @@ Una pila funciona bajo el principio LIFO (LAST IN-FIRST OUT) y por ende tenemos 
 * `size()`: devuelve el numero de elementos
   
 3. **Estructura Graph:** Implementación de un grafo no dirigido usando listas de adyacencia.
-4. **DFS Iterativo:** Método `dfs_iterative(start)` que regresa el orden exacto de visita de los nodos utilizando la pila personalizada.
-5. **Componentes Conexas:** Método `connected_components()` que devuelve una lista de los componentes aislados dentro del grafo no dirigido.
-6. **Detección de Ciclos:** Método `has_cycle_undirected()` que evalúa si el grafo no dirigido contiene al menos un ciclo y regresa `True` o `False`.
+Definimos la clase Graph y utilizamos un diccionario para implementar una lista de adyacencia, donde una llave es un vertice y su valor es un conjunto con sus vertices vecinos.
+
+5. **`dfs_iterative(start)`** lo que hace es explorar el grafo. Ordena los vecinos al reves antes de meterlos a la pila, garantizamos que el recorrido visite los nodos en orden alfabético. 
+6. **`connected_components()`** recorre todo el mapa buscando nodos que no hayan sido visitados para encontrar listas separadas.
+7. **`has_cycle_undirected()`:** utiliza una lista modificada que guarda pares `(Nodo_Actual, Nodo_Padre)`para detectar si el recorrido se encuentra en un nodo ya visitado.  
 
 
 
