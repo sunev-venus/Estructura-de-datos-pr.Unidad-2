@@ -20,7 +20,10 @@ Definimos la clase Graph y utilizamos un diccionario para implementar una lista 
 6. **`connected_components()`** recorre todo el mapa buscando nodos que no hayan sido visitados para encontrar listas separadas.
 7. **`has_cycle_undirected()`:** utiliza una lista modificada que guarda pares `(Nodo_Actual, Nodo_Padre)`para detectar si el recorrido se encuentra en un nodo ya visitado.  
 
-
+## Pruebas de los algoritmos 
+1. **Prueba DFS sin ciclo:** se crea un frafo lineal simple y se imprimer el de visita.
+2. **Prueba de ciclo:** se crea un grafo cerrado en forma de traingulo para que el algoritmo detecte el ciclo y devuerlva `True`.
+3. **Prueba de componentes conexas:** se crea un grafo ártido en tres secciones independientes para comprobar que el algoritmo encuentra 3 listas diferentes.
 
 ## link del repositorio
 https://colab.research.google.com/drive/1J4H-TxISWUuuYkPfA7Hv-PR-OVsVNZ0v?usp=sharing
