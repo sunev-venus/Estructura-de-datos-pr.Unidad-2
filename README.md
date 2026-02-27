@@ -10,3 +10,6 @@ El código cumple con los 5 requisitos solicitados para la evaluación:
 3. **DFS Iterativo:** Método `dfs_iterative(start)` que regresa el orden exacto de visita de los nodos utilizando la pila personalizada.
 4. **Componentes Conexas:** Método `connected_components()` que devuelve una lista de los componentes aislados dentro del grafo no dirigido.
 5. **Detección de Ciclos:** Método `has_cycle_undirected()` que evalúa si el grafo no dirigido contiene al menos un ciclo y regresa `True` o `False`.
+
+## link del repositorio
+https://colab.research.google.com/drive/1J4H-TxISWUuuYkPfA7Hv-PR-OVsVNZ0v?usp=sharing
